@@ -15,7 +15,7 @@ const reducer = (state, action) => {
       };
 
     case "REMOVE_FROM_BASKET":
-      const index = state.basket.findIndex();
+      // const index = state.basket.findIndex();
       return {
         ...state,
         basket: state.basket.filter((item) => item.id !== action.id),
