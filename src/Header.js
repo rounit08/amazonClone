@@ -14,6 +14,7 @@ function Header() {
         <img
           className="header__logo"
           src="https://www.scottandirmamusic.com/buttons/button.amazon.png"
+          alt=""
         />
       </Link>
 

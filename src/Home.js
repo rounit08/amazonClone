@@ -8,6 +8,7 @@ function Home() {
       <div className="home__container">
         <img
           className="home_image"
+          alt=""
           src="https://allesoverfilm.nl/media/uploads/amazon_prime_winkel_banner.jpg"
         />
         <div className="home__row">
